@@ -4,7 +4,6 @@ from app.main import app
 
 @pytest.mark.asyncio
 async def test_health():
-    # use the new ASGITransport style (no deprecation warning)
     transport = ASGITransport(app=app)
     async with AsyncClient(transport=transport, base_url="http://test") as ac:
         resp = await ac.get("/health")
