@@ -1,4 +1,5 @@
-![CI](https://github.com/rohinii/my-fastapi-service/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/rohinii/my-fastapi-service/actions/workflows/ci.yml/badge.svg?branch=main)
+
 
 # My FastAPI Service
 
