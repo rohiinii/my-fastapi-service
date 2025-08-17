@@ -1,4 +1,5 @@
-![CI](https://github.com/rohinii/my-fastapi-service/actions/workflows/ci.yml/badge.svg?branch=main)
+![CI](https://github.com/rohinii/my-fastapi-service/workflows/CI/badge.svg?branch=main)
+
 
 
 
