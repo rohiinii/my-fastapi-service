@@ -22,4 +22,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
-        run: pytest -q
+        run: |
+          export PYTHONPATH=$PWD   # Linux runner needs this
+          pytest -q
