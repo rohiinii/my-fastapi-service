@@ -1,3 +1,5 @@
+![CI](https://github.com/rohinii/my-fastapi-service/actions/workflows/ci.yml/badge.svg)
+
 # My FastAPI Service
 
 A tiny FastAPI service with a `/health` endpoint and GitHub Actions CI.
